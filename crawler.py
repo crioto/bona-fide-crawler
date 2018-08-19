@@ -52,7 +52,4 @@ for item in items.items():
     filename = parts[len(parts)-1]
     fullURL = "https://"+targetURL.netloc+img
     download(fullURL, filename, title)
-    #parts = parse.urlparse(img)
-
-
-    #print("==================\n"+pq(item).html()+"\n=============================\n")
+    
